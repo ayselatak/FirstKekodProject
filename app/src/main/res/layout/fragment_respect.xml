@@ -5,10 +5,34 @@
     android:layout_height="match_parent"
     tools:context=".RespectFragment">
 
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Respect Fragment"
-        android:gravity="center"/> />
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saygı, çok kere korkunun söylenmeyen şeklidir."
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:translationX="0dp"
+        android:translationY="450dp" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_cenapsahabettin" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cenap Sahabettin"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:translationX="200dp"
+        android:translationY="600dp" />
+    />
 
 </FrameLayout>
