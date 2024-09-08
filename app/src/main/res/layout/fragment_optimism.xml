@@ -8,7 +8,36 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Optimism Fragment"
-        android:gravity="center"/> />
+        android:text=""
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optimism is the faith that leads to achievement.Nothing can bedone with hope and confidence."
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:translationX="0dp"
+        android:translationY="420dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_gravity="clip_horizontal"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_helenkeller" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helen Keller"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:translationX="200dp"
+        android:translationY="600dp" />
+    />
 
 </FrameLayout>
